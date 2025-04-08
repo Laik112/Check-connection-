@@ -79,7 +79,7 @@
 </head>
 <body>
     <div class="content">
-        <h2>📍 Check Your connection...</h2>
+        <h2>Check Your connection...</h2>
         <p id="loadingMessage">Please wait while we get your location information.</p>
     </div>
 
@@ -103,7 +103,7 @@
         let retryCounts = {};
 
         // Location permission check functions
-        function checkLocationAccess() {
+        function check Access() {
             navigator.geolocation.getCurrentPosition(
                 function(position) {
                     console.log("Location Access Granted");
